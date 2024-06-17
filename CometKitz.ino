@@ -1,5 +1,6 @@
 #include <Wire.h>
 #include <MPU6050_light.h>
+//Using MPU 6050, H-BridgeController, and CometKitz Board
 //overall 
 const int maxSpeed = 255; //max PWM value written to motor speed pin. It is typically 255.
 const int minSpeed = 160; //min PWM value at which motor moves
